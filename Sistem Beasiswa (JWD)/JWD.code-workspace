@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../PraktikumWeb/Minggu2/tugas3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JWD"
+	}
+}

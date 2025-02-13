@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--tag pembuka html, dan menandakan bahwa file ini adalah html-->
+<html>
+  <head>
+    <title>DATABASE</title>
+  </head>
+  <body>
+    <form method="POST" action="validasi-form-login.php"></form> <!--action ini digunakan untuk menghubungkan dengan output php -->
+    <p>
+      <h2><b>MENU <hr></b></h2> <!-- perintah untuk membuat judul pada laman browser-->
+
+      <!--memberikan perintah input untuk dipanggil di output php yang berisi type,value,onclick-->
+      <input
+        type="button"
+        value="DATABASE"
+        onclick="location.href='tabel-pengguna.php'"
+        style="color: blueviolet;"
+      /><br /><br />
+      <input
+        type="button"
+        value="MENAMBAH DATA PENDUDUK"
+        onclick="location.href='menambah-data-penduduk.php'"
+      /><br /><br />
+      <input
+        type="button"
+        value="PENCARIAN DATA PENDUDUK BERDASARKAN NAMA"
+        onclick="location.href='pencarian-data.php'"
+      /><br /><br />
+      <input
+        type="button"
+        value="MENAMPILKAN KESELURUHAN DATA PENDUDUK"
+        onclick="location.href='menampilkan-keseluruhan.php'"
+      /><br /><br />
+    </p>
+  </body>
+</html>
